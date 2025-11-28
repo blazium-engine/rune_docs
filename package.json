@@ -1,7 +1,7 @@
 {
   "name": "rune-docs",
   "version": "0.0.0",
-  "description": "Documentation for RUNE Interface - A Visual Workflow Editor for Building Flows with Luau",
+  "description": "Documentation for R.U.N.E. – Routing & Utility Node Editor Interface - A Visual Workflow Editor for Building Flows with Luau",
   "private": true,
   "repository": {
     "type": "git",

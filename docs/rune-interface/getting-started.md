@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # RUNE Interface - Getting Started
 
-RUNE Interface is the graphical application for creating and editing RUNE flows. This guide will help you get started.
+RUNE Interface is the graphical application for creating and editing R.U.N.E. – Routing & Utility Node Editor flows. This guide will help you get started.
 
 ## Installation
 

@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Documentation for RUNE Interface - A Visual Workflow Editor for Building Flows with Luau">
+      description="Documentation for R.U.N.E. – Routing & Utility Node Editor Interface - A Visual Workflow Editor for Building Flows with Luau">
       <HomepageHeader />
       <main>
         <div className="container margin-vert--lg">
@@ -86,7 +86,7 @@ export default function Home() {
                 </div>
                 <div className="card__body">
                   <p>
-                    RUNE CLI is a command-line tool for executing RUNE flows without the graphical interface. 
+                    RUNE CLI is a command-line tool for executing R.U.N.E. – Routing & Utility Node Editor flows without the graphical interface. 
                     It's designed for automation, CI/CD pipelines, and headless execution of workflows.
                   </p>
                   <p>
@@ -125,7 +125,7 @@ export default function Home() {
                 </div>
                 <div className="card__body">
                   <p>
-                    RUNE (Rapid Unified Node Editor) is a visual workflow system that makes it easy to build complex automation 
+                    R.U.N.E. – Routing & Utility Node Editor is a visual workflow system that makes it easy to build complex automation 
                     and data processing flows. Instead of writing traditional code, you use a visual editor to connect nodes together.
                   </p>
                   <p>

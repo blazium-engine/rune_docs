@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # Introduction to RUNE
 
-Welcome to the RUNE Interface documentation! RUNE is a visual workflow editor that lets you build automation flows, data processing pipelines, and complex logic without writing traditional code.
+Welcome to the RUNE Interface documentation! R.U.N.E. – Routing & Utility Node Editor is a visual workflow editor that lets you build automation flows, data processing pipelines, and complex logic without writing traditional code.
 
 ## What is RUNE?
 
-RUNE (Rapid Unified Node Editor) is a node-based visual programming system. Instead of writing code line by line, you:
+R.U.N.E. – Routing & Utility Node Editor is a node-based visual programming system. Instead of writing code line by line, you:
 
 1. **Drag nodes** onto a canvas
 2. **Connect them together** with wires
