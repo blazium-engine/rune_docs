@@ -2,46 +2,68 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction to RUNE
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the RUNE Interface documentation! RUNE is a visual workflow editor that lets you build automation flows, data processing pipelines, and complex logic without writing traditional code.
+
+## What is RUNE?
+
+RUNE (Rapid Unified Node Editor) is a node-based visual programming system. Instead of writing code line by line, you:
+
+1. **Drag nodes** onto a canvas
+2. **Connect them together** with wires
+3. **Configure inputs** and outputs
+4. **Run your flow** immediately
+
+Think of it like building with LEGO blocks - each node does a specific job, and you connect them to create complex workflows.
+
+## RUNE Interface vs RUNE CLI
+
+RUNE comes in two forms:
+
+- **RUNE Interface**: A graphical application with a visual editor. Perfect for designing flows, debugging, and interactive development.
+- **RUNE CLI**: A command-line tool for executing flows. Perfect for automation, scripts, and CI/CD pipelines.
+
+Both tools use the same flow format, so you can design in the Interface and execute with the CLI.
+
+## Key Concepts
+
+### Flows
+
+A **flow** is a collection of connected nodes that work together to accomplish a task. Each flow is saved as a JSON file and can be shared, versioned, and executed.
+
+### Nodes
+
+**Nodes** are the building blocks of flows. Each node:
+- Has **inputs** (data and execution pins)
+- Performs a specific operation
+- Produces **outputs** (data and execution pins)
+
+### Execution Flow
+
+Nodes are connected with **execution pins** that control the order of operations. When a node finishes, it triggers the next connected node.
+
+### Data Flow
+
+Nodes pass data between each other using **data pins**. Values flow from output pins to input pins.
+
+### Session State
+
+**Session State** is a storage system that persists data throughout a flow execution. You can set, get, and delete values that other nodes can access.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Ready to start building? Choose your path:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **[RUNE Interface Getting Started](/docs/rune-interface/getting-started)** - Learn to use the visual editor
+- **[RUNE CLI Getting Started](/docs/rune-cli/getting-started)** - Learn to use the command-line tool
+- **[Luau API Reference](/docs/luau/session-state)** - Explore the scripting API
+- **[Node Reference](/docs/nodes/branch)** - Browse available nodes
 
-### What you'll need
+## Download
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Get RUNE Interface and RUNE CLI from [itch.io](https://blaziumengine.itch.io/rune-interface).
 
-## Generate a new site
+---
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+**Built by Blazium Engine Contributors**

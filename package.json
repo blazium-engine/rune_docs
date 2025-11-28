@@ -1,7 +1,14 @@
 {
-  "name": "docs",
+  "name": "rune-docs",
   "version": "0.0.0",
+  "description": "Documentation for RUNE Interface - A Visual Workflow Editor for Building Flows with Luau",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blazium-engine/rune_docs.git"
+  },
+  "author": "Blazium Engine Contributors",
+  "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
