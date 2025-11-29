@@ -50,6 +50,7 @@ export default function Home() {
                   <p>
                     RUNE Interface is a visual workflow editor that lets you build flows by connecting nodes together. 
                     Instead of writing code, you drag and drop nodes onto a canvas, wire them together, and run your flow immediately.
+                    The interface supports multiple languages and can be integrated with external tools via the MCP (Model Context Protocol) server.
                   </p>
                   <p>
                     <strong>Perfect for:</strong> Building automation workflows, data processing pipelines, and complex logic flows without writing boilerplate code.
@@ -63,6 +64,8 @@ export default function Home() {
                     <li>Luau scripting support for custom logic</li>
                     <li>Session state management for data persistence</li>
                     <li>Flow execution history and debugging tools</li>
+                    <li>Multi-language localization support with .po files</li>
+                    <li>MCP Server integration for remote workflow triggering from external tools</li>
                   </ul>
                   <div className="margin-top--md">
                     <Link
