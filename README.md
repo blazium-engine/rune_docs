@@ -48,20 +48,6 @@ This command generates static content into the `build` directory and can be serv
 
 The documentation is deployed to GitHub Pages at `https://blazium-engine.github.io/rune_docs/`
 
-### Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-### Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-This command builds the website and pushes to the `gh-pages` branch.
-
 ## Contributing
 
 Documentation improvements and corrections are welcome! Please ensure that:
