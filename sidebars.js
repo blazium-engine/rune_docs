@@ -13,6 +13,7 @@ const sidebars = {
         'rune-interface/getting-started',
         'rune-interface/localization',
         'rune-interface/mcp-server',
+        'rune-interface/custom-nodes',
       ],
     },
     {
