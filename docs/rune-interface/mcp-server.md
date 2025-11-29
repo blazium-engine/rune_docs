@@ -127,9 +127,7 @@ Cursor is a popular AI-powered code editor that supports MCP servers. You can co
 
 1. Open Cursor
 2. Navigate to your Cursor configuration directory:
-   - **Windows**: `%APPDATA%\Cursor\User\globalStorage\saoudrizwan.claude-dev\settings\cline_mcp_settings.json`
-   - **macOS/Linux**: `~/.config/Cursor/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json`
-   - Or edit your MCP settings file directly: `~/.cursor/mcp.json` (or `%USERPROFILE%\.cursor\mcp.json` on Windows)
+   - edit your MCP settings file directly: `~/.cursor/mcp.json` (or `%USERPROFILE%\.cursor\mcp.json` on Windows)
 
 3. Add the RUNE Interface MCP server configuration:
 
