@@ -150,32 +150,75 @@ To test your translation before submitting:
 
 ## Submitting Translations
 
-Once you've completed and tested your translation, you can submit it to be included in future releases:
+Once you've completed and tested your translation, you can submit it to be included in future releases via a GitHub Pull Request.
 
-1. Visit the [RUNE Interface itch.io page](https://blaziumengine.itch.io/rune-interface)
-2. Navigate to the **Community** or **Discussion** section
-3. Create a new post with the following information:
-   - **Title**: `Translation: [Language Name] ([Language Code])`
-   - **Content**: Include:
-     - Language code (e.g., `fr_FR`, `de_DE`)
-     - Native name of the language
-     - English name of the language
-     - Attach your `.po` file
-     - Any notes about the translation (completeness, special considerations, etc.)
+### Step 1: Create or Find an Issue Ticket
 
-### Example Submission
+**Important**: All localization PRs must have an associated Issue Ticket assigned before submission.
+
+1. Visit the [holistic repository](https://github.com/blazium-engine/holistic) on GitHub
+2. Check if there's already an issue requesting support for your language
+3. If an issue exists, comment that you'd like to work on it and wait for it to be assigned to you
+4. If no issue exists, create a new issue:
+   - Use a clear title like: `Add [Language Name] ([Language Code]) Translation`
+   - Describe that you'd like to contribute a translation for your language
+   - Wait for the issue to be assigned to you before proceeding
+
+### Step 2: Prepare Your Pull Request
+
+1. **Fork the repository** if you haven't already
+2. **Create a new branch** for your translation (e.g., `add-fr-fr-translation`)
+3. **Place your `.po` file** in the root-level `languages/` directory:
+   - The file must be in `languages/` (not `docs/languages/`)
+   - Use the language code as the filename (e.g., `fr_FR.po`, `de_DE.po`)
+   - This directory is where language files are compiled into the engine binary
+4. **Ensure your file follows the format**:
+   - Same structure as `languages/en_US.po`
+   - Correct header with language code, native name, and English name
+   - All `msgid` entries unchanged
+   - All `msgstr` entries translated
+
+### Step 3: Submit Your Pull Request
+
+1. **Commit your changes**:
+   ```bash
+   git add languages/XX_XX.po
+   git commit -m "Add [Language Name] translation"
+   ```
+
+2. **Push to your fork** and create a Pull Request on GitHub
+
+3. **In your PR description**, include:
+   - Reference to the Issue Ticket (e.g., "Fixes #123" or "Addresses #456")
+   - Language code (e.g., `fr_FR`, `de_DE`)
+   - Native name of the language
+   - English name of the language
+   - Translation completeness status (e.g., "All 326 strings translated")
+   - Any notes about the translation (special considerations, testing done, etc.)
+
+### Example PR Description
 
 ```
-Title: Translation: Français (fr_FR)
+Translation: Français (fr_FR)
+
+This PR adds French translation support for RUNE Interface.
 
 Language Code: fr_FR
 Native Name: Français
 English Name: French
 
-I've completed a French translation of RUNE Interface. All 326 strings have been translated.
+All 326 strings have been translated and tested locally. The translation
+has been verified in the application UI.
 
-[Attach fr_FR.po file]
+Fixes #123
 ```
+
+### Important Notes
+
+- **Issue Ticket Required**: PRs without an associated Issue Ticket will not be accepted
+- **File Location**: Language files must be in the root `languages/` directory, not `docs/languages/`
+- **Testing**: Make sure you've tested your translation locally before submitting
+- **Completeness**: While partial translations are welcome, please indicate the completion status in your PR
 
 ## Tips for Translators
 
@@ -199,5 +242,8 @@ The base language file (`en_US.po`) contains **326 translation entries** coverin
 
 ## Questions or Issues?
 
-If you encounter any issues with translations or have questions about the localization system, please post in the [itch.io discussion board](https://blaziumengine.itch.io/rune-interface).
+If you encounter any issues with translations or have questions about the localization system:
+
+- **For contribution questions**: Open an issue on the [holistic repository](https://github.com/blazium-engine/holistic)
+- **For general questions**: Post in the [itch.io discussion board](https://blaziumengine.itch.io/rune-interface)
 
