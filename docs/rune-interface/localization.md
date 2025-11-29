@@ -23,7 +23,7 @@ Where:
 
 ### Base Language File
 
-The application includes a base English language file (`en_US.po`) with 306 translation entries covering all UI strings. This file serves as the template for creating translations in other languages.
+The application includes a base English language file (`en_US.po`) with 326 translation entries covering all UI strings, including MCP-related tools and tray/minimize settings. This file serves as the template for creating translations in other languages.
 
 ### Special Files
 
@@ -172,7 +172,7 @@ Language Code: fr_FR
 Native Name: Français
 English Name: French
 
-I've completed a French translation of RUNE Interface. All 306 strings have been translated.
+I've completed a French translation of RUNE Interface. All 326 strings have been translated.
 
 [Attach fr_FR.po file]
 ```
@@ -188,7 +188,7 @@ I've completed a French translation of RUNE Interface. All 306 strings have been
 
 ## Current Status
 
-The base language file (`en_US.po`) contains **306 translation entries** covering:
+The base language file (`en_US.po`) contains **326 translation entries** covering:
 - Setup and welcome screens
 - Menu items and dialogs
 - Flow management

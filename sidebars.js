@@ -99,6 +99,7 @@ const sidebars = {
           items: [
             'nodes/button-event',
             'nodes/cron-event',
+            'nodes/mcp-triggered-event',
           ],
         },
         {
