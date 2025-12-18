@@ -14,6 +14,7 @@ const sidebars = {
         'rune-interface/localization',
         'rune-interface/mcp-server',
         'rune-interface/custom-nodes',
+        'rune-interface/plugins',
       ],
     },
     {
