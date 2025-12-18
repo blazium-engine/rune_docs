@@ -6,6 +6,9 @@ sidebar_position: 4
 
 Custom nodes allow you to extend RUNE Interface with your own functionality. You can create reusable nodes that perform specific tasks using Luau scripts. This guide explains how to create custom nodes using YAML definitions and Luau scripts.
 
+> **Looking for native C/C++ plugins?**  
+> This page covers Luau-based custom nodes. For compiled plugins that register nodes via the C API, see [Creating Native Plugins with the RUNE Plugin SDK](/docs/rune-interface/plugins).
+
 ## Overview
 
 A custom node consists of two files:
@@ -293,4 +296,5 @@ When a custom node executes:
 - Explore the [Luau API documentation](/docs/luau/session-state) to see what functions are available
 - Review existing [node documentation](/docs/nodes/branch) to understand node patterns
 - Check out other custom node examples in your flows directory
+
 

@@ -54,12 +54,14 @@ msgstr ""
 "Project-Id-Version: RUNE\n"
 "Language: en_US\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"PO-Revision-Date: 2025-11-29 01:12-0700\n"
 "X-Native-Name: English\n"
 "X-English-Name: English\n"
 ```
 
 Key header fields:
 - **`Language`** - The language code (e.g., `en_US`, `fr_FR`, `de_DE`)
+- **`PO-Revision-Date`** - The date and time when the translation was last revised (optional, but recommended)
 - **`X-Native-Name`** - The name of the language in its native script (shown in UI)
 - **`X-English-Name`** - The name of the language in English
 
@@ -123,6 +125,7 @@ When translating, preserve the format placeholders exactly as they appear in the
 2. Rename it to match your language code (e.g., `fr_FR.po` for French, `de_DE.po` for German)
 3. Edit the file header:
    - Change `Language:` to your language code
+   - Update `PO-Revision-Date:` to the current date and time (optional, but recommended)
    - Update `X-Native-Name:` to the native name of your language
    - Update `X-English-Name:` to the English name of your language
 4. Translate all `msgstr` entries to your target language
@@ -156,7 +159,7 @@ Once you've completed and tested your translation, you can submit it to be inclu
 
 **Important**: All localization PRs must have an associated Issue Ticket assigned before submission.
 
-1. Visit the [holistic repository](https://github.com/blazium-engine/holistic) on GitHub
+1. Visit the [rune_docs repository](https://github.com/blazium-engine/rune_docs) on GitHub
 2. Check if there's already an issue requesting support for your language
 3. If an issue exists, comment that you'd like to work on it and wait for it to be assigned to you
 4. If no issue exists, create a new issue:
@@ -244,6 +247,6 @@ The base language file (`en_US.po`) contains **326 translation entries** coverin
 
 If you encounter any issues with translations or have questions about the localization system:
 
-- **For contribution questions**: Open an issue on the [holistic repository](https://github.com/blazium-engine/holistic)
+- **For contribution questions**: Open an issue on the [rune_docs repository](https://github.com/blazium-engine/rune_docs)
 - **For general questions**: Post in the [itch.io discussion board](https://blaziumengine.itch.io/rune-interface)
 

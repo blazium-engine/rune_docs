@@ -60,6 +60,14 @@ Ready to start building? Choose your path:
 - **[Luau API Reference](/docs/luau/session-state)** - Explore the scripting API
 - **[Node Reference](/docs/nodes/branch)** - Browse available nodes
 
+## Extending RUNE
+
+RUNE can be extended in multiple ways, depending on how deep you need to integrate:
+
+- **[Custom Nodes](/docs/rune-interface/custom-nodes)** - Define new nodes with YAML + Luau scripts.
+- **[MCP Server Integration](/docs/rune-interface/mcp-server)** - Expose external tools and services over the MCP protocol.
+- **[Native Plugins with the RUNE Plugin SDK](/docs/rune-interface/plugins)** - Build compiled C/C++ plugins using the public SDK.
+
 ## Download
 
 Get RUNE Interface and RUNE CLI from [itch.io](https://blaziumengine.itch.io/rune-interface).
