@@ -1,0 +1,378 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RUNE\n"
+"Language: it_IT\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"PO-Revision-Date: 2025-11-29 01:12-0700\n"
+"X-Native-Name: Italiano\n"
+"X-English-Name: Italian\n"
+
+msgid "Name is required"
+msgstr "Nome richiesto"
+
+msgid "Join our Discord"
+msgstr "Entra nel Discord"
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "Security:"
+msgstr "Sicurezza:"
+
+msgid "(Where your flow files will be stored)"
+msgstr "(Dove verranno salvati i tuoi flow)"
+
+msgid "Select an existing flow or create a new one to continue."
+msgstr "Seleziona un flow esistente o creane uno nuovo per continuare"
+
+msgid "Language:"
+msgstr "Lingua:"
+
+msgid "Exit Flow"
+msgstr "Esci Flow"
+
+msgid "Cancel"
+msgstr "Cancella"
+
+msgid "First Time Setup"
+msgstr "Setup Iniziale"
+
+msgid "About"
+msgstr "Info"
+
+msgid "Welcome to RUNE Interface!"
+msgstr "Benvenuto nell'interfaccia RUNE!"
+
+msgid "(Where temporary files and cache will be stored)"
+msgstr "(Dove i file temporanei e la cache verranno salvati)"
+
+msgid "Please configure the directories for cache and flows."
+msgstr "Configura le cartelle per la cache e i flow."
+
+msgid "Export Flow"
+msgstr "Esporta Flow"
+
+msgid "No languages found"
+msgstr "Nessuna lingua trovata"
+
+msgid "Select Language"
+msgstr "Seleziona Lingua"
+
+msgid "Flow ID:"
+msgstr "ID Flow:"
+
+msgid "Files to import:"
+msgstr "File da importare:"
+
+msgid "Default language"
+msgstr "Lingua predefinita"
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid "Paste"
+msgstr "Incolla"
+
+msgid "Save"
+msgstr "Salva"
+
+msgid "Determines how much detail is written to log files"
+msgstr "Determina la quantità di dettagli scritti nei file di log"
+
+msgid "Log Verbosity:"
+msgstr "Verbosità Log:"
+
+msgid "Flow Logging:"
+msgstr "Logging Del Flow:"
+
+msgid "Create dedicated log files whenever flows execute"
+msgstr "Crea file di log dedicati ogni volta che vengono eseguiti i flow"
+
+msgid "Allow Environment Variable Access"
+msgstr "Consenti l'accesso alle variabili d'ambiente"
+
+msgid "Allow rune/runecli to access environment variables outside of memory"
+msgstr "Consenti a rune/runecli di accedere alle variabili d'ambiente esterne alla memoria"
+
+msgid "Disable Directory Sandboxing"
+msgstr "Disabilità Il Sandboxing Delle Cartelle"
+
+msgid "Allow lua/luau scripts and nodes to access files outside the flow directory"
+msgstr "Consenti agli script lua/luau e ai nodi di accedere a file al di fuori della cartella del flow"
+
+msgid "Copy"
+msgstr "Copia"
+
+msgid "Cache Directory:"
+msgstr "Cartella Della Cache:"
+
+msgid "When minimizing the application, hide it in the system tray instead of the taskbar"
+msgstr "Minimizza l'applicatione nel system tray invece che delle taskbar"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Flows Directory:"
+msgstr "Cartella Dei Flow:"
+
+msgid "Browse"
+msgstr "Naviga"
+
+msgid "Application Settings"
+msgstr "Impostazioni Applicazione"
+
+msgid "No languages available"
+msgstr "Nessuna lingua disponibile"
+
+msgid "Name:"
+msgstr "Nome:"
+
+msgid "Import"
+msgstr "Importa"
+
+msgid "Export Base Language File"
+msgstr "Esporta File Lingua Base"
+
+msgid "Flow File:"
+msgstr "Flow File:"
+
+msgid "Documentation"
+msgstr "Documentazione"
+
+msgid "Community"
+msgstr "Comunità"
+
+msgid "Forums"
+msgstr "Forum"
+
+msgid "New Flow"
+msgstr "Nuovo Flow"
+
+msgid "Help with docs/translations"
+msgstr "Aiuta con la documentazione e traduzioni"
+
+msgid "Help"
+msgstr "Aiuto"
+
+msgid "Trigger"
+msgstr "Trigger"
+
+msgid "Close"
+msgstr "Chiudi"
+
+msgid "File"
+msgstr "File"
+
+msgid "Cut"
+msgstr "Taglia"
+
+msgid "Create Flow"
+msgstr "Crea Flow"
+
+msgid "No flow loaded"
+msgstr "Nessun flow caricato"
+
+msgid "Create %s"
+msgstr "Crea %s"
+
+msgid "Error"
+msgstr "Errore"
+
+msgid "Edit"
+msgstr "Modifica"
+
+msgid "Errors"
+msgstr "Errori"
+
+msgid "Exit"
+msgstr "Esci"
+
+msgid "Filter:"
+msgstr "Filtri:"
+
+msgid "Flow ID: lowercase, no spaces, only letters, numbers, - or _"
+msgstr "ID Flow: solo lettere minuscole, numeri, - e _"
+
+msgid "Flow"
+msgstr "Flow"
+
+msgid "Flow Name:"
+msgstr "Nome Flow:"
+
+msgid "Flow Settings"
+msgstr "Impostazioni Flow"
+
+msgid "Import Flow"
+msgstr "Importa Flow"
+
+msgid "Log Level:"
+msgstr "Livello di Log:"
+
+msgid "No execution history available"
+msgstr "Nessuna cronologia di esecuzione disponibile"
+
+msgid "Node Information"
+msgstr "Informazioni Nodo"
+
+msgid "Node not found"
+msgstr "Nodo non trovato"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Open Flow"
+msgstr "Apri Flow"
+
+msgid "Original Flow Info:"
+msgstr "Info Originale Del Flow:"
+
+msgid "Original Name:"
+msgstr "Nome Originale"
+
+msgid "Redo"
+msgstr "Ripeti"
+
+msgid "Refresh"
+msgstr "Ricarica"
+
+msgid "RUNE Interface"
+msgstr "Interfaccia RUNE"
+
+msgid "Save Flow"
+msgstr "Salva Flow"
+
+msgid "Save Flow As..."
+msgstr "Salva Flow Come..."
+
+msgid "Select a node to view information"
+msgstr "Seleziona un nodo per visualizzare le informazioni"
+
+msgid "Save changes to \"%s\" before exiting?"
+msgstr "Salva modifiche a \"%s\" prima di uscire?"
+
+msgid "Toggle Panels"
+msgstr "Toggle Panels"
+
+msgid "Undo"
+msgstr "Annulla"
+
+msgid "Version"
+msgstr "Versione"
+
+msgid "View"
+msgstr "Vista"
+
+msgid "Warn"
+msgstr "Avvisa"
+
+msgid "Warnings"
+msgstr "Avvisi"
+
+msgid "Execution Inputs:"
+msgstr "Input Di Esecuzione:"
+
+msgid "Yes"
+msgstr "Si"
+
+msgid "No"
+msgstr "No"
+
+msgid "Execution History"
+msgstr "Cronologia Esecuzioni"
+
+msgid "Timestamp:"
+msgstr "Timestamp:"
+
+msgid "Status: Success"
+msgstr "Stato: Successo"
+
+msgid "Status: Failure"
+msgstr "Stato: Fallimento"
+
+msgid "Nodes Executed:"
+msgstr "Nodi Eseguiti:"
+
+msgid "Server Controls:"
+msgstr "Controlli Del Server:"
+
+msgid "Inputs:"
+msgstr "Input:"
+
+msgid "Execution Outputs:"
+msgstr "Output Di Esecuzione:"
+
+msgid "Outputs:"
+msgstr "Output:"
+
+msgid "Connected from:"
+msgstr "Connesso da:"
+
+msgid "Connected to:"
+msgstr "Connesso a:"
+
+msgid "Not connected"
+msgstr "Non connesso"
+
+msgid "Version:"
+msgstr "Versione:"
+
+msgid "Category:"
+msgstr "Categoria:"
+
+msgid "Debug"
+msgstr "Debug"
+
+msgid "Minimize to Taskbar"
+msgstr "Minimizza alla Taskbar"
+
+msgid "MCP Server:"
+msgstr "Server MCP:"
+
+msgid "Enable MCP Server"
+msgstr "Attiva Server MCP"
+
+msgid "Enable Model Context Protocol server for AI tool integration"
+msgstr "Attiva il server Model Context Protocol per l'integrazione con stumenti IA"
+
+msgid "Port:"
+msgstr "Porta:"
+
+msgid "MCP Settings"
+msgstr "Impostazioni MCP"
+
+msgid "MCP Server or Config Manager not available"
+msgstr "Server MCP o Config Manager non disponibili"
+
+msgid "Current Server Status:"
+msgstr "Current Server Status:"
+
+msgid "Start"
+msgstr "Inizia"
+
+msgid "Stop"
+msgstr "Ferma"
+
+msgid "Restart"
+msgstr "Riavvia"
+
+msgid "MCP Information"
+msgstr "Informazioni MCP"
+
+msgid "MCP Server not available"
+msgstr "Server MCP non disponibile"
+
+msgid "MCP URL:"
+msgstr "URL MCP:"
+
+msgid "Server Status:"
+msgstr "Stato del Server:"
+
+msgid "Activated MCP Tools available in the Current Version:"
+msgstr "Strumenti MCP disponibili attivati nella versione corrente:"
+
+msgid "No tools available"
+msgstr "Nessun strumento disponibile"
+
+msgid "Trigger:"
+msgstr "Trigger:"
+
