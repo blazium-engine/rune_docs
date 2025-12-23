@@ -20,8 +20,8 @@ The proxy configuration is stored in session state and used by all subsequent Op
 
 ## Variable Inputs
 
-- **ProxyConfig** (string): The proxy URL in the format "http://host:port" or "https://host:port"
-- **ProxyAuth** (string, optional): Proxy authentication in the format "username:password" (optional)
+- **ProxyConfig** (string): The proxy URL in the format `http://host:port` or `https://host:port`
+- **ProxyAuth** (string, optional): Proxy authentication in the format `username:password` (optional)
 
 ## Execution Outputs
 
@@ -36,21 +36,21 @@ The proxy configuration is stored in session state and used by all subsequent Op
 ## Special Notes
 
 - The proxy configuration is stored in session state
-- Proxy URL must be in valid format (http:// or https://)
-- Proxy authentication is optional but must be in "username:password" format if provided
+- Proxy URL must be in valid format (`http://` or `https://`)
+- Proxy authentication is optional but must be in `username:password` format if provided
 - Proxy settings apply to all OpenAI API calls after this node executes
 - To disable proxy, leave ProxyConfig empty or don't use this node
 
 ## Example Usage
 
 Configure a proxy without authentication:
-1. Set ProxyConfig to "http://proxy.example.com:8080"
+1. Set ProxyConfig to `http://proxy.example.com:8080`
 2. Leave ProxyAuth empty
 3. Connect Execute to start the flow
 
 Configure a proxy with authentication:
-1. Set ProxyConfig to "http://proxy.example.com:8080"
-2. Set ProxyAuth to "username:password"
+1. Set ProxyConfig to `http://proxy.example.com:8080`
+2. Set ProxyAuth to `username:password`
 3. Connect Execute to start the flow
 
 ## Flow Download Example

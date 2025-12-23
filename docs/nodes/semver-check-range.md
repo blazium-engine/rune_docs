@@ -19,7 +19,7 @@ None (data node, no execution flow)
 ## Variable Inputs
 
 - **Version** (string): The semantic version string to check
-- **Range** (string): The version range specification (e.g., ">=1.2.3 <2.0.0")
+- **Range** (string): The version range specification (e.g., `>=1.2.3 <2.0.0`)
 
 ## Execution Outputs
 
@@ -39,9 +39,9 @@ None (data node, no execution flow)
 ## Example Usage
 
 Check if version matches range:
-1. Set Version to "1.5.0"
-2. Set Range to ">=1.2.3 <2.0.0"
-3. Check Matches output (will be "true")
+1. Set Version to `1.5.0`
+2. Set Range to `>=1.2.3 <2.0.0`
+3. Check Matches output (will be `true`)
 
 ## Flow Download Example
 
