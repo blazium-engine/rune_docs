@@ -32,7 +32,7 @@ None (data node, no execution flow)
 ## Special Notes
 
 - Both Version and Range must be valid
-- Range supports standard semver range syntax (>=, <=, >, <, ~, ^, etc.)
+- Range supports standard semver range syntax (`>=`, `<=`, `>`, `<`, `~`, `^`, etc.)
 - If either input is invalid, Matches will be "false"
 - This node doesn't have execution pins - it's a pure data node
 
