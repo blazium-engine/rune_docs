@@ -60,6 +60,17 @@ Ready to start building? Choose your path:
 - **[Luau API Reference](/docs/luau/session-state)** - Explore the scripting API
 - **[Node Reference](/docs/nodes/branch)** - Browse available nodes
 
+## AI Integration
+
+RUNE Interface includes built-in OpenAI integration that brings AI capabilities directly into your workflows:
+
+- **[OpenAI Chat](/docs/rune-interface/openai-chat)** - Have conversations with AI models directly within RUNE Interface
+- **[OpenAI Settings](/docs/rune-interface/openai-settings)** - Configure API keys, models, and workflow functions
+- **[OpenAI Workflows](/docs/rune-interface/openai-workflows)** - Register your workflows as AI-callable functions
+- **[OpenAI Nodes](/docs/nodes/openai-set-api-key)** - Use OpenAI nodes in your flows for chat, images, audio, and more
+
+The AI can automatically call your registered workflows during conversations, creating powerful integrations between AI assistance and your automation flows.
+
 ## Extending RUNE
 
 RUNE can be extended in multiple ways, depending on how deep you need to integrate:

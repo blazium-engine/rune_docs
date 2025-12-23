@@ -42,12 +42,18 @@ The main canvas is where you:
 - Connect nodes with wires
 - Configure node properties
 
+### Tabs (Top)
+
+The main window includes several tabs:
+- **Flow Editor**: The main canvas for building flows
+- **AI Chat**: OpenAI chat interface for AI assistance (requires OpenAI configuration)
+
 ### Menu Bar (Top)
 
 The menu bar provides:
 - File operations (New, Open, Save, Export)
 - Flow execution controls
-- Settings and preferences
+- Settings and preferences (including OpenAI Settings)
 
 ## Basic Workflow
 
@@ -61,5 +67,6 @@ The menu bar provides:
 
 - Learn about [available nodes](/docs/nodes/branch)
 - Explore the [Luau API](/docs/luau/session-state) for scripting
+- Set up [OpenAI integration](/docs/rune-interface/openai-settings) for AI-powered features
 - Check out [flow examples](#) (coming soon)
 
