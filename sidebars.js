@@ -50,6 +50,22 @@ const sidebars = {
         },
         {
           type: 'category',
+          label: 'Node Functions',
+          items: [
+            'luau/node-functions',
+            'luau/math',
+            'luau/string',
+            'luau/conversion',
+            'luau/crypto',
+            'luau/file-operations',
+            'luau/git',
+            'luau/semver',
+            'luau/comparison',
+            'luau/openai',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Functions',
           items: [
             'luau/functions/session-state-set',
