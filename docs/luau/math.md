@@ -84,7 +84,8 @@ All functions return a number (integer or float depending on the operation).
 - [MathMul Node](/docs/nodes/math-mul)
 - [MathDiv Node](/docs/nodes/math-div)
 - [MathMod Node](/docs/nodes/math-mod)
-- [MathAbs Node](/docs/nodes/math-abs)
+- [MathAbsInteger Node](/docs/nodes/math-abs-integer)
+- [MathAbsFloat Node](/docs/nodes/math-abs-float)
 - [MathSqrt Node](/docs/nodes/math-sqrt)
 - [MathPow Node](/docs/nodes/math-pow)
 - And other Math nodes...

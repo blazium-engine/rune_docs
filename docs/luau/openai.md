@@ -134,5 +134,12 @@ Functions return tables with response data. Structure varies by function type:
 
 ## Related Nodes
 
-See the [OpenAI Nodes documentation](/docs/nodes) for detailed node information.
+- [OpenAISetApiKey Node](/docs/nodes/openai-set-api-key)
+- [OpenAIChatCompletion Node](/docs/nodes/openai-chat-completion)
+- [OpenAICompletion Node](/docs/nodes/openai-completion)
+- [OpenAIGenerateImage Node](/docs/nodes/openai-generate-image)
+- [OpenAICreateTranscription Node](/docs/nodes/openai-create-transcription)
+- [OpenAICreateSpeech Node](/docs/nodes/openai-create-speech)
+- [OpenAIUploadFile Node](/docs/nodes/openai-upload-file)
+- And other OpenAI nodes...
 

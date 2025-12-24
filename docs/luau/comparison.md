@@ -88,6 +88,6 @@ All comparison functions return a boolean value indicating the result of the com
 - [BooleanCompare Node](/docs/nodes/boolean-compare)
 - [ArrayCompare Node](/docs/nodes/array-compare)
 - [ObjectCompare Node](/docs/nodes/object-compare)
-- [DateTimeCompareUnix Node](/docs/nodes/datetime-compare-unix)
-- [DateTimeCompareISO Node](/docs/nodes/datetime-compare-iso)
+- [DateTimeCompareUnix Node](/docs/nodes/date-time-compare-unix)
+- [DateTimeCompareISO Node](/docs/nodes/date-time-compare-iso)
 
