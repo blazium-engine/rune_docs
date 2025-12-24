@@ -379,3 +379,207 @@ msgstr "No tools available"
 msgid "Trigger:"
 msgstr "Trigger:"
 
+msgid "OpenAI Settings"
+msgstr "OpenAI Settings"
+
+msgid "Workflow Functions"
+msgstr "Workflow Functions"
+
+msgid "Enable OpenAI:"
+msgstr "Enable OpenAI:"
+
+msgid "Direct Input"
+msgstr "Direct Input"
+
+msgid "Environment Variable"
+msgstr "Environment Variable"
+
+msgid "Environment Variable Name:"
+msgstr "Environment Variable Name:"
+
+msgid "Organization ID (Optional):"
+msgstr "Organization ID (Optional):"
+
+msgid "Model:"
+msgstr "Model:"
+
+msgid "Loading models..."
+msgstr "Loading models..."
+
+msgid "No models available. Click 'Refresh Models' to load."
+msgstr "No models available. Click 'Refresh Models' to load."
+
+msgid "(e.g., gpt-3.5-turbo, gpt-4)"
+msgstr "(e.g., gpt-3.5-turbo, gpt-4)"
+
+msgid "Disabled"
+msgstr "Disabled"
+
+msgid "Ready"
+msgstr "Ready"
+
+msgid "Initializing"
+msgstr "Initializing"
+
+msgid "OpenAI Manager or Config Manager not available"
+msgstr "OpenAI Manager or Config Manager not available"
+
+msgid "OpenAI Manager not available"
+msgstr "OpenAI Manager not available"
+
+msgid "Refresh Workflows"
+msgstr "Refresh Workflows"
+
+msgid "Save All"
+msgstr "Save All"
+
+msgid "Available Workflows:"
+msgstr "Available Workflows:"
+
+msgid "No workflows with OpenAITriggered nodes found"
+msgstr "No workflows with OpenAITriggered nodes found"
+
+msgid "Function Name:"
+msgstr "Function Name:"
+
+msgid "Description:"
+msgstr "Description:"
+
+msgid "Analyze"
+msgstr "Analyze"
+
+msgid "OpenAI is not enabled. Please configure it in Settings."
+msgstr "OpenAI is not enabled. Please configure it in Settings."
+
+msgid "Start a conversation by typing a message below."
+msgstr "Start a conversation by typing a message below."
+
+msgid "User"
+msgstr "User"
+
+msgid "Assistant"
+msgstr "Assistant"
+
+msgid "System"
+msgstr "System"
+
+msgid "Send"
+msgstr "Send"
+
+msgid "Clear"
+msgstr "Clear"
+
+msgid "Processing..."
+msgstr "Processing..."
+
+msgid "New Chat"
+msgstr "New Chat"
+
+msgid "Nodes"
+msgstr "Nodes"
+
+msgid "History"
+msgstr "History"
+
+msgid "Uncategorized"
+msgstr "Uncategorized"
+
+msgid "Delete Node"
+msgstr "Delete Node"
+
+msgid "Structured"
+msgstr "Structured"
+
+msgid "Raw JSON"
+msgstr "Raw JSON"
+
+msgid "Settings JSON:"
+msgstr "Settings JSON:"
+
+msgid "Configure plugin settings. Use the tabs below to switch between a structured view and raw JSON. Changes take effect after saving."
+msgstr "Configure plugin settings. Use the tabs below to switch between a structured view and raw JSON. Changes take effect after saving."
+
+msgid "Failed to parse existing settings; showing raw JSON."
+msgstr "Failed to parse existing settings; showing raw JSON."
+
+msgid "Failed to parse settings schema; using raw JSON editor."
+msgstr "Failed to parse settings schema; using raw JSON editor."
+
+msgid "Failed to parse default settings JSON."
+msgstr "Failed to parse default settings JSON."
+
+msgid "Reset to Defaults"
+msgstr "Reset to Defaults"
+
+msgid "Failed to save plugin settings."
+msgstr "Failed to save plugin settings."
+
+msgid "Invalid JSON: "
+msgstr "Invalid JSON: "
+
+msgid "No valid settings schema available for structured view."
+msgstr "No valid settings schema available for structured view."
+
+msgid "Item %d"
+msgstr "Item %d"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Add"
+msgstr "Add"
+
+msgid "Port must be between 1 and 65535"
+msgstr "Port must be between 1 and 65535"
+
+msgid "Invalid port number"
+msgstr "Invalid port number"
+
+msgid "Failed to start server: "
+msgstr "Failed to start server: "
+
+msgid "Failed to restart server: "
+msgstr "Failed to restart server: "
+
+msgid "Plugins Directory:"
+msgstr "Plugins Directory:"
+
+msgid "(Where plugin modules are loaded from)"
+msgstr "(Where plugin modules are loaded from)"
+
+msgid "Minimize on Close"
+msgstr "Minimize on Close"
+
+msgid "When clicking the window close button (X), minimize the window instead of closing"
+msgstr "When clicking the window close button (X), minimize the window instead of closing"
+
+msgid "Do Not Ask on Close Again"
+msgstr "Do Not Ask on Close Again"
+
+msgid "Close the application directly without confirmation when clicking the close button"
+msgstr "Close the application directly without confirmation when clicking the close button"
+
+msgid "Port %d is in use. Change port."
+msgstr "Port %d is in use. Change port."
+
+msgid "Environment Settings"
+msgstr "Environment Settings"
+
+msgid "Flow Environment"
+msgstr "Flow Environment"
+
+msgid "Application Environment"
+msgstr "Application Environment"
+
+msgid "No environment available"
+msgstr "No environment available"
+
+msgid "Key"
+msgstr "Key"
+
+msgid "Value"
+msgstr "Value"
+
+msgid "Add New Variable"
+msgstr "Add New Variable"
+
